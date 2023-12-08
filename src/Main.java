@@ -269,20 +269,7 @@ public class Main {
         }
         return false;
     }
-    /*
-    public static void testFormat(String format1, String format2, boolean twoFormats, String input) {
-        if (twoFormats) {
-            if (!input.equals(format1) && !input.equals(format2)) {
-                System.out.println("Please enter in the correct format (" + format1 + " or " + format2 + "): ");
-            }
-        } else {
-            if (!input.equals(format1) && !input.equals(format2)) {
-                System.out.println("Please enter in the correct format (" + format1 + "): ");
-            }
-        }
-    }
 
-     */
     public static void writeToFile(String filename, String message) throws IOException {
         File file = new File(filename);
         FileWriter fileWriter = new FileWriter(file);
